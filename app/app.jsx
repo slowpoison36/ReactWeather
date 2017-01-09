@@ -1,3 +1,4 @@
+/*global $ */
 var React = require("react");
 var ReactDOM = require("react-dom");
 var{Route,Router,IndexRoute,hashHistory} = require("react-router");
@@ -8,7 +9,8 @@ var Example = require("Example");
 
 
 
-
+require("style!css!foundation-sites/dist/foundation.min.css");
+$(document).foundation();
 
 ReactDOM.render(
                 <Router history={hashHistory} >
