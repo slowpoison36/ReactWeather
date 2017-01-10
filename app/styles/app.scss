@@ -1,0 +1,12 @@
+$space-loader:2.5rem;
+$purple-color:purple;
+.page-title{
+    margin-top:$space-loader;
+    margin-bottom:$space-loader ;
+    color:$purple-color;
+}
+
+
+input[type="search"]{
+    box-shadow: none;
+}

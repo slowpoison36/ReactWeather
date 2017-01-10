@@ -28,7 +28,9 @@ module.exports = {
             Example:"app/components/Example.jsx",
             WeatherForm:"app/components/WeatherForm.jsx",
             WeatherMessage:"app/components/WeatherMessage.jsx",
-            openWeatherMap:"app/api/openWeatherMap.jsx"
+            openWeatherMap:"app/api/openWeatherMap.jsx",
+            ErrorModal:"app/components/ErrorModal.jsx",
+            applicationStyles:"app/styles/app.scss"
            },
         extensions:["",".js","jsx"]
     },
@@ -39,7 +41,7 @@ module.exports = {
                 query:{
                     presets:["react","es2015","stage-0"]
                 },
-                tests:/\.jsx?$/,
+                test:/\.jsx?$/,
                 exclude:/(node_modules|bower_components)/
                 }
             ]
